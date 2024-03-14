@@ -1,5 +1,15 @@
 # Python-week-1
 
+JUPYTER NOTEBOOK( Interacting with Jupyter Notebook in the browser)
+
+used to write and execute proggraming language
+open the app, clieck on new 
+In a Jupyter Notebook, new cells can be created by holding down the shift key and pressing enter multiple times.
+ To enter Python code, click inside the cell to enter edit mode and start typing.
+ To run the code, hold down shift and press enter.
+
+*  PYTHON
+
 *  PYTHON : is a dynamically tpyes, high, interpreted programming language which has easy syntax.
  pyton used for: do almost everything that one can imagine, used for game, development, automation, data anaysis.
  
@@ -47,6 +57,63 @@ to create a vaiavle you need to declear by assigning a value to it
 
 * which is ture or false
 
+DATA STRUCTURES
+
+list []
+
+
+OPERATORS
+# Arithmetic Operators:
+
++: Addition
+-: Subtraction
+*: Multiplication
+/: Division (floating-point division)
+//: Floor Division (integer division)
+%: Modulus (remainder)
+**: Exponentiation
+
+# Comparison Operators:
+
+==: Equal to
+!=: Not equal to
+<: Less than
+>: Greater than
+<=: Less than or equal to
+>=: Greater than or equal to
+
+# Logical Operators:
+
+and: Logical AND
+or: Logical OR
+not: Logical NOT
+Assignment Operators:
+
+=: Assign value
++=: Add and assign
+-=: Subtract and assign
+*=: Multiply and assign
+/=: Divide and assign
+%=: Modulus and assign
+//=: Floor division and assign
+**=: Exponentiation and assign
+&=: Bitwise AND and assign
+|=: Bitwise OR and assign
+^=: Bitwise XOR and assign
+<<=: Left shift and assign
+>>=: Right shift and assign
+
+# Membership Operators:
+
+in: Checks if an element exists in a sequence
+not in: Checks if an element does not exist in a sequence
+
+
+
+
+
+
+
 
 JUPYTER NOTEBOOK( Interacting with Jupyter Notebook in the browser)
 
@@ -59,5 +126,10 @@ In a Jupyter Notebook, new cells can be created by holding down the shift key an
  (Interacting with Jupyter Notebook in VScode)
  making changes on the file you can open the file on Visual Studio Code
  Visual Studio Code( CAN EDIT, RUN AND do all other thing that can be done on the web browser
+
+
+
+
+
  
  
