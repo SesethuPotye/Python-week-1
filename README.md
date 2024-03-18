@@ -23,16 +23,19 @@ python variable: they are created when you are assigning a value to
 to access the stored file on python use the "cd" command, which means change directory.on comand prompt
 
 # VARIABLES IN PYTHON(variables in Python,whole numbers; floats, Booleans,)
-
 * A variable is something that is can change, are containers for storing data values.
-
   
+ Creating Variables
+* Python has no command for declaring a variable.
+* A variable is created the moment you first assign a value to it.
+
+e.g
 # x = 5
 # y = "John"
 # print(x)
 # print(y)
 
-to create a vaiavle you need to declear by assigning a value to it
+to create a variable you need to declear by assigning a value to it
 
 # DATA TYPES
 
