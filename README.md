@@ -141,6 +141,40 @@ my_function("Emil")
 my_function("Tobias")
 my_function("Linus")
 
+parameters or arguments:
+* information that are passed into a function.
+* A parameter is the variable listed inside the parentheses in the function definition.
+* An argument is the value that is sent to the function when it is called.
+
+# Number of Arguments
+* By default, a function must be called with the correct number of arguments.
+* Meaning that if your function expects 2 arguments, you have to call the function with 2 arguments, not more, and not less.
+  
+  example
+* def my_function(fname, lname):
+ * print(fname + " " + lname)
+
+*my_function("Emil", "Refsnes")
+
+# classes and objects
+
+Create a Class
+* use the keyword class:
+* example
+* class MyClass:
+ * x = 5
+
+# Create Object
+* class MyClass:
+  8x = 5
+
+* p1 = MyClass()
+* print(p1.x)
+
+
+
+
+
   
 
 
