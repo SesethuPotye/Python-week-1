@@ -62,7 +62,45 @@ to create a variable you need to declear by assigning a value to it
 
 DATA STRUCTURES
 
-list []
+# list [] 
+* are used to store multiple items in a single variable.
+* ther are ordered, changeable, and allow duplicate values.
+* are indexed, the first item has index [0], the second item has index [1]
+
+  # ordered lists
+* When we say that lists are ordered, it means that the items have a defined order, and that order will not change.
+* If you add new items to a list, the new items will be placed at the end of the list.
+
+# ALLOWS DUPLICATES
+Since lists are indexed, lists can have items with the same value:
+ EXAMPLE ODF A LIST[]
+ 
+ * thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+*print(thislist)
+
+# List Length
+To determine how many items a list has, use the len() function:
+EXAMPLE
+*thislist = ["apple", "banana", "cherry"]
+*print(len(thislist))
+
+# TUPLES()
+
+* Tuple items are ordered, unchangeable, and allow duplicate values.
+* Tuple items are indexed, the first item has index [0], the second item has index [1] etc.
+  BASICLY TUPLES ARE MORE OF THE SAME AS LIST BUT YOU CAN JUST IDENTIF THE BY ()
+
+# SETS{}
+
+Duplicates Not Allowed
+Unchangeable
+Unordered
+e.g 
+* myset = {"apple", "banana", "cherry"}
+
+
+
+  
 
 
 OPERATORS
