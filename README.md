@@ -118,6 +118,34 @@ not in: Checks if an element does not exist in a sequence
 * A function can return data as a result.
   
 # Creating a Function
+In Python a function is defined using the def keyword:
+e.g def my_function():
+
+Calling a Function
+To call a function, use the function name followed by parenthesis:
+e.g def my_function():
+  print("Hello from a function")
+
+my_function()
+
+# Arguments
+* Information can be passed into functions as arguments.
+* Arguments are specified after the function name, inside the parentheses.
+* You can add as many arguments as you want, just separate them with a comma.
+  
+example:
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+
+  
+
+
+
+
 
 
   
