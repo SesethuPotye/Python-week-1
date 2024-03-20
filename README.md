@@ -149,6 +149,82 @@ Assignment Operators:
 in: Checks if an element exists in a sequence
 not in: Checks if an element does not exist in a sequence
 
+# BASIC CONTROL FLOW
+
+*These are conditiona statements
+# IF STATEMENT: An "if statement" is written by using the if keyword.
+
+* a = 33
+* b = 200
+* if b > a:
+*  print("b is greater than a")
+  
+Indentation
+*Python relies on indentation (whitespace at the beginning of a line) to define scope in the code, IF THERE IS NO INDENTATION ON THE "IF" STATEMENT THEN THE WILL BE AN ERROR
+
+E.G
+* a = 33
+* b = 200
+* if b > a:
+* print("b is greater than a") # you will get an error
+
+# Elif
+* The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
+
+* a = 33
+* b = 33
+* if b > a:
+ * print("b is greater than a")
+* elif a == b:
+*  print("a and b are equal")
+
+#  Else
+* The else keyword catches anything which isn't caught by the preceding conditions.
+
+* a = 200
+* b = 33
+* if b > a:
+*  print("b is greater than a")
+*elif a == b:
+*  print("a and b are equal")
+* else:
+*  print("a is greater than b")
+
+  # While
+  * With the while loop we can execute a set of statements as long as a condition is true.
+E.G
+ i = 1
+while i < 6:
+  print(i)
+  i += 1( remember to increment i, or else the loop will continue forever.)
+ # The break Statement
+ * With the break statement we can stop the loop even if the while condition is true:
+ * THIS LOOP CAN RUN FOR EVER SO IINORGER FOR YOU TO EXIT THE LOOP YOU NEED TO USE BREAK
+E.G 
+ * i = 1
+* while i < 6:
+ * print(i)
+ * if i == 3:
+*    break
+ * i += 1
+
+ * STATEMENT WHICH WILL EXIT THE LOOP AND MOVE ON TO THE NEXT LINE OUTSIED THE CODE
+
+* if you want to skip over certain lines within a loop, you can use the continue statement, which will skip over any lines that come after it and jump back to the top of the loop to start the next iteration.
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
 # functions
 
 * A function is a block of code which only runs when it is called.
