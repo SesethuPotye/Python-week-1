@@ -52,9 +52,17 @@ named parameters eg, adding a key word "message" to our function
              return num1 * num2
 
     performOperation(2,3, message= "A new message!", operation="multiply")
-    A new message
+    A new message!
+    
+# rules when using key word arguments
+* they must come after the positional arguments
+* The order of the first two arguments is important and cannot be changed. However
+* after these mandatory arguments, the keyword arguments can be in any order. 
 
+arg
 
+    def performOperation(*args):
+        print(arg
 
 
 
