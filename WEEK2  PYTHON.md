@@ -31,6 +31,29 @@ other example that takes 2 paramaters and an operation
 ARGUMENTS
 * Information can be passed into functions as arguments
 * Arguments are specified after the function name, inside the parentheses
+* Aguments can be separated with a comma if you want to add many of them
+* Arguments are often shortened to args in Python documentations.
+
+example of a function with 1 argument
+
+    def my_function(fname)
+      print(fname + "Refsenses"
+    my_function("Emil")
+    my_function("Tobias")
+    my_function("Linus")
+    
+named parameters eg, adding a key word "message" to our function
+
+       def performOperation(num1, num2, operation= "sum",  message="Default message"):
+           print(message)
+           if operation == "sum":
+             return num1 + num2
+           if operation == "multiply":
+             return num1 * num2
+
+    performOperation(2,3, message= "A new message!", operation="multiply")
+    A new message
+
 
 
 
