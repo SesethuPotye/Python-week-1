@@ -1,4 +1,4 @@
-# FUNCTIONS
+s# FUNCTIONS
 * A function is a block of code which only runs when it is called.
 * Functions are composed of a name and parameters, which are denoted by the def statement.
 * A function can return data as a result.
@@ -57,12 +57,49 @@ named parameters eg, adding a key word "message" to our function
 # rules when using key word arguments
 * they must come after the positional arguments
 * The order of the first two arguments is important and cannot be changed. However
+* You can also send arguments with the key = value syntax.
 * after these mandatory arguments, the keyword arguments can be in any order. 
 
-arg
+# Arbitrary Arguments, *args
+(is used befor the parameter name in a function def when  you dont know how many arguments that will be passed into your function)
 
     def performOperation(*args):
-        print(arg
+        print(args)
+    perfomOperations(1,2,3)
+    (1,2,3)
+
+# Arbitrary Keyword Arguments, **kwargs
+
+* If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition.
+* This way the function will receive a dictionary of arguments, and can access the items
+* accordingly:
+* keyword arguments have keys and values and can be passed in any order.
+
+example
+
+    def my_function(**kid):
+      print("His last name is " + kid["lname"])
+
+    my_function(fname = "Tobias", lname = "Refsnes")
+
+#  Variables and Scope
+
+Function Scope
+* *args and **kwargs were used to print out the arguments passed into a function. This allowed us to see a tuple and dictionary of the passed arguments.
+
+# "locals" function.
+
+* another method that allows us to access all the variables within a Python function without any asterisks.
+
+
+
+    
+
+
+    
+
+
+    
 
 
 
