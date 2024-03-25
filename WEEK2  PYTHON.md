@@ -93,8 +93,21 @@ Function Scope
 * local are defined inside the function.
 
 # Globals()
-* can be created out side a function
+* A variable created in the main body of the python code is a global variable and beongs to the global scope,
+* Global variables are available from within any scope,global and local
+A variable created outside of a function is global and can be used by anyone
 
+# Variables as Functions
+* Variables and functions both have names and data associated with them.
+*  for functions, this data includes information about required parameters and the lines of instruction to be executed.
+*  In Python, a function is represented as an object.
+  
+# Viewing Function Data With  __code__
+
+* "code" attribute of Python function objects can be used to confirm that functions are just variables in Python.
+* ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/478c25cb-6879-4fe3-8778-61f3fb45de6e)
+
+  
 
 
 
