@@ -107,6 +107,20 @@ A variable created outside of a function is global and can be used by anyone
 * "code" attribute of Python function objects can be used to confirm that functions are just variables in Python.
 * ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/478c25cb-6879-4fe3-8778-61f3fb45de6e)
 
+Text Processing in Python
+* There are two text processing operations, and a function that can make the text lowercase, remove punctuation, new lines, and words that are three characters or less. It can also remove long words
+
+# Lambda Functions
+* A lambda function can take any number of arguments, but can only have one expression.
+* These are a way to represent a function without giving it a variable name.
+* small function can be defined using the lambda keyword.
+* example, lambda x: x + 3 is a lambda function that takes a single parameter x and returns x plus three
+
+# Syntax
+# lambda arguments : expression
+
+  
+
   
 
 
