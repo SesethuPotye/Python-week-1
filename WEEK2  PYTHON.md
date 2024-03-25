@@ -90,6 +90,11 @@ Function Scope
 # "locals" function.
 
 * another method that allows us to access all the variables within a Python function without any asterisks.
+* local are defined inside the function.
+
+# Globals()
+* can be created out side a function
+
 
 
 
