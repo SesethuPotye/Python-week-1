@@ -1,4 +1,5 @@
-s# FUNCTIONS
+1. BASIC FUNCTION
+   
 * A function is a block of code which only runs when it is called.
 * Functions are composed of a name and parameters, which are denoted by the def statement.
 * A function can return data as a result.
@@ -123,6 +124,10 @@ Text Processing in Python
 * Reason we use lambda
 power of lambda is better shown when you use thm as an anonymous function inside another function.
 
+2. CLASSES AND OBJECTS FUNDAMENTALS
+* Python Classes/Objects: Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods.A Class is like an object constructor, or a "blueprint" for creating objects.
+
+   
   
 
   
