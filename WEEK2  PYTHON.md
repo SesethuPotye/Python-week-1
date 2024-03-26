@@ -151,6 +151,8 @@ power of lambda is better shown when you use thm as an anonymous function inside
 * Objects can also contain methods. Methods in objects are functions that belong to the object.
 ![Uploading image.png…]()Note: The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
 
+# The self Parameter
+
 
 
 
