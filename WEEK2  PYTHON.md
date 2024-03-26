@@ -132,6 +132,13 @@ power of lambda is better shown when you use thm as an anonymous function inside
 # CREATING A PARENT CLASS
 * Any class can be a parent class, so the syntax is the same as creating any other class:
   # EXAPMLE ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/64b481b2-23a7-4663-8d88-d37765bb4bb4)
+  
+# Create a Child Class
+* To create a class that inherits the functionality from another class, send the parent class as a parameter when creating the child class:
+![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/3f67892a-514a-4f4f-8e2c-70f74fc39c66)
+* Note: Use the pass keyword when you do not want to add any other properties or methods to the class.
+
+
 
 
 
@@ -142,10 +149,27 @@ power of lambda is better shown when you use thm as an anonymous function inside
 
 # The __init__() Function[Instance Attributes]
 * To understand the meaning of classes we have to understand the built-in __init__() function.
-*All classes have a function called __init__(), which is always executed when the class is being initiated.
-*Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
+* All classes have a function called __init__(), which is always executed when the class is being initiated.
+* Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
 
 ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/ee869759-9fae-4c04-bae9-73719fbcee31)
+
+# Add the __init__() function to the Student class:
+![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/81bb40b0-80dd-483f-8d11-25578cfbf0fd)
+
+# Use the super() Function
+* Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
+ ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/47a55ae9-d9c3-47fa-ae1d-6e6ddd28fad3)
+
+# Add Properties
+![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/072cee9c-e361-4e04-933c-bb8dbe677915)
+
+## In the example below, the year 2019 should be a variable, and passed into the Student class when creating student objects. To do so, add another parameter in the __init__() function:
+
+![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/0e949715-6cc5-442a-ae90-9e6fdef88571)
+
+
+
 
 # The __str__() Function[Static Attributes]
 * The __str__() function controls what should be returned when the class object is represented as a string.
