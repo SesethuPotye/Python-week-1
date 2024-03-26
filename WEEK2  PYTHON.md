@@ -127,7 +127,43 @@ power of lambda is better shown when you use thm as an anonymous function inside
 2. CLASSES AND OBJECTS FUNDAMENTALS
 * Python Classes/Objects: Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods.A Class is like an object constructor, or a "blueprint" for creating objects.
 
-   
+# Create a Class
+* To create a class, use the keyword class:
+   ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/aeceab2e-f613-4615-84ee-ff8f8ae50226)
+
+# The __init__() Function[Instance Attributes]
+* To understand the meaning of classes we have to understand the built-in __init__() function.
+*All classes have a function called __init__(), which is always executed when the class is being initiated.
+*Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
+
+![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/ee869759-9fae-4c04-bae9-73719fbcee31)
+
+# The __str__() Function[Static Attributes]
+* The __str__() function controls what should be returned when the class object is represented as a string.
+* If the __str__() function is not set, the string representation of the object is returned:
+
+  # The string representation of an object WITHOUT the __str__() function:
+  ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/3f08da59-d7ee-49e5-8275-5b8db123212d)
+
+# The string representation of an object WITH the __str__() function:
+![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/ff1e0f60-ffba-452e-a131-846ae277b801)
+# Object Methods
+* Objects can also contain methods. Methods in objects are functions that belong to the object.
+![Uploading image.png…]()Note: The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+
+
+
+
+ 
+  
+
+
+
+
+  
+
+  
+
   
 
   
