@@ -118,6 +118,10 @@ Text Processing in Python
 
 # Syntax
 # lambda arguments : expression
+* lambda functions can come handy when you need to pass a function as an argument to another python function ,such as the sorted function that sorts a list of values.
+
+* Reason we use lambda
+power of lambda is better shown when you use thm as an anonymous function inside another function.
 
   
 
