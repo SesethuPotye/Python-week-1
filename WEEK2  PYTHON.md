@@ -126,6 +126,15 @@ power of lambda is better shown when you use thm as an anonymous function inside
 
 2. CLASSES AND OBJECTS FUNDAMENTALS
 * Python Classes/Objects: Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods.A Class is like an object constructor, or a "blueprint" for creating objects.
+* Parent class is the class being inherited from, also called base class.
+* Child class is the class that inherits from another class, also called derived class.
+
+# CREATING A PARENT CLASS
+* Any class can be a parent class, so the syntax is the same as creating any other class:
+  # EXAPMLE ![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/64b481b2-23a7-4663-8d88-d37765bb4bb4)
+
+
+
 
 # Create a Class
 * To create a class, use the keyword class:
@@ -152,6 +161,14 @@ power of lambda is better shown when you use thm as an anonymous function inside
 ![Uploading image.png…]()Note: The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
 
 # The self Parameter
+
+
+
+# HANDLING ERRORS AND EXCEPTIONS
+*  exceptions are determined during runtime and can be retried.
+*  errors cannot be retried  
+*  Python errors and exceptions ultimately stem from a class called the base exception
+
 
 
 
