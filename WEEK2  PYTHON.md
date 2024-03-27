@@ -211,6 +211,7 @@ power of lambda is better shown when you use thm as an anonymous function inside
 * TRY
 * EXCEPT
 * FINALLY
+* else
 
 
 
