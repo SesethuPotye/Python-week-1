@@ -62,6 +62,34 @@ to create a variable you need to declear by assigning a value to it
 
 * which is ture or false
 
+  # dictionary:a dictionary is an unordered collection of key-value pairs, where each key is unique and maps to a corresponding value.
+* Dictionaries are extremely flexible and versatile data structures that allow for efficient data retrieval and manipulation.
+* They are defined using curly braces {} and consist of comma-separated key-value pairs in the format key: value.
+
+example of creating a dictionary..
+
+![image](https://github.com/SesethuPotye/Python-week-1/assets/162969678/b444ddef-ed40-4931-88f3-94b6cb6900ec)
+Dictionaries have the following characteristics:
+
+Unordered: Dictionaries do not maintain the order of elements as they are added. The order of key-value pairs in a dictionary is arbitrary and can change between operations. Starting from Python 3.7, the order of insertion of key-value pairs is preserved in dictionaries, but you should not rely on this behavior in older versions of Python.
+
+Mutable: Dictionaries are mutable, meaning you can modify the elements (key-value pairs) after the dictionary is created. You can add, remove, or modify key-value pairs in a dictionary.
+
+Keys are Unique: Each key in a dictionary must be unique. If you try to add a duplicate key, the previous value associated with that key will be overwritten by the new value.
+
+Here are some common operations you can perform with dictionaries in Python:
+
+* Accessing elements by key: value = my_dict[key]
+* Adding or updating elements: my_dict[key] = value
+* Removing elements: del my_dict[key] or my_dict.pop(key)
+* Checking if a key exists: key in my_dict
+* Getting the list of keys: my_dict.keys()
+* Getting the list of values: my_dict.values()
+* Getting the list of key-value pairs: my_dict.items()
+* Dictionaries are widely used in Python for various tasks such as storing * * * * configuration settings, representing data records, caching results, mapping values, and more.
+*  They provide a convenient and efficient way to organize and manipulate data in Python programs.
+
+
 DATA STRUCTURES
 
 # list [] 
