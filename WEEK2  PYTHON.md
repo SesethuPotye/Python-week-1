@@ -189,17 +189,28 @@ power of lambda is better shown when you use thm as an anonymous function inside
 
 
 # HANDLING ERRORS AND EXCEPTIONS
+*  An error event that interrupts the flow of the program.
 *  exceptions are determined during runtime and can be retried.
 *  errors cannot be retried  
 *  Python errors and exceptions ultimately stem from a class called the base exception
 
-
-
+* use a try-except method. in the try block, we have the code that is more likely to create an error in a program. in the except block, we handle our error in a smarter way, to help counter an interruption in our program flow.
 
 
  
-  
+  ![img.png](img.png)
 
+# Many Exceptions
+*  You can define as many exception blocks as you want, e.g. if you want to execute a special block of code for a special kind of error:
+![img_1.png](img_1.png)
+# Else
+* You can use the else keyword to define a block of code to be executed if no errors were raised:
+* ![img_2.png](img_2.png)
+
+# METHODS USED IN THE HANDLING
+* TRY
+* EXCEPT
+* FINALLY
 
 
 
