@@ -9,6 +9,11 @@
 * The techniques of data analyst
 * The role o data governance
 
+# WHAT IS DATA ANALYITICS
+
+kjkgmd.g
+
+
 
 
   
