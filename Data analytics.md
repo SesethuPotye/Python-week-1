@@ -13,13 +13,37 @@
 
 data analytics is the whole process of taking raw data and turning it into insights that can be used to make decisions. This involves collecting the data, cleaning it, analyzing it, and visualizing the results.
 
+# several key responsibilities and skills of data analyitics are:
+
 # Data Collection and Preparation:
 
 # Collection:
 Involves gathering the data you need for your analysis. This can come from various sources, like surveys, databases, external sources ,social media, or even physical experiments. Here, you decide what information is relevant to answer your question and go get it.
 
 # Preparation:
-Is all about getting that raw data into a usable shape. This often involves cleaning the data by fixing errors, filling in missing bits, and ensuring consistency. You might also need to transform the data, like converting dates into a standard format, or combining data from different sources into a single, unified format.
+Is all about getting that raw data(Unprocessed, Unstructured, Unrefined) into a usable shape. This often involves cleaning the data by fixing errors, filling in missing bits, and ensuring consistency. You might also need to transform the data, like converting dates into a standard format, or combining data from different sources into a single, unified format.
+
+# Data Analysis:
+Employing statistical methods, machine learning techniques, or other analytic tools to interpret data,
+Identifying trends, patterns, and correlations that might not be immediately obvious.
+
+# Data Visualization and Storytelling:
+
+Creating visual representations of the data, such as charts, graphs, and dashboards, to make complex information easily understandable,
+Articulating findings in a compelling narrative to communicate the significance of the data to stakeholders.
+
+# Decision Support:
+Making recommendations based on data-driven insights to help guide business decisions,
+Providing context around the data, including potential implications and future trends.
+
+# Collaboration and Communication:
+
+Working closely with other departments, such as marketing, finance, and operations, to understand their data needs and provide insights,
+Effectively communicating complex data findings in a clear and concise manner to non-technical stakeholders.
+
+
+
+
 
 
 
