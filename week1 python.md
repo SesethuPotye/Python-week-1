@@ -348,7 +348,7 @@ In a Jupyter Notebook, new cells can be created by holding down the shift key an
 
  (Interacting with Jupyter Notebook in VScode)
  making changes on the file you can open the file on Visual Studio Code
- Visual Studio Code( CAN EDIT, RUN AND do all other thing that can be done on the web browser
+ Visual Studio Code( CAN EDIT, RUN AND do all other thing that can be done on the web browser 
 
 
 
