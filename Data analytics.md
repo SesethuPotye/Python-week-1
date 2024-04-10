@@ -49,6 +49,17 @@ Adapting to new types of data and analytical methods as the organization's needs
 In conclusin By fulfilling these roles, a data analyst helps an organization make informed decisions that can improve operational efficiencies, drive business strategies, and create a competitive advantage. The goal is to contribute to the organization's success by turning data into a valuable asset that informs and drives decision-making.
 
 
+# Exploring Data Types
+# Chapter 2
+
+for one to understand data types one needs to understand data elements.
+
+# DATA ELEMENTS
+A data element is an attribute about a person, place, or thing containing data within a range of values. Data elements also describe characteristics of activities, including orders, transactions, and events. 
+
+# Data types
+so a data type limits the values a data element can have.
+
 
 
 
